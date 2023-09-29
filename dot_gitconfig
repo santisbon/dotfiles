@@ -1,0 +1,15 @@
+[user]
+  name = Armando C. Santisbon
+  email = 3804335+santisbon@users.noreply.github.com
+[core]
+	editor = code --wait
+[diff]
+	tool = code
+[difftool "code"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = code
+[mergetool "code"]
+	cmd = code --wait $MERGED
+[alias]
+	squash-all = "!f(){ git reset $(git commit-tree \"HEAD^{tree}\" \"$@\");};f"
