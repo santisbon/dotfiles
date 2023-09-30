@@ -20,6 +20,7 @@ brew "sevenzip"
 brew "spaceship"
 brew "wget"
 brew "zsh"
+brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 cask "1password"
 cask "anaconda"
@@ -41,6 +42,10 @@ cask "spotify"
 cask "visual-studio-code"
 cask "vnc-viewer"
 cask "whatsapp"
+mas '1Password for Safari', id: 1569813296
+mas 'Amazon Kindle', id: 302584613
+mas 'NordVPN: VPN Fast & Secure', id: 905953485
+mas 'Save to Raindrop.io', id: 1549370672
 vscode "hediet.vscode-drawio"
 vscode "moshfeu.compare-folders"
 vscode "ms-azuretools.vscode-docker"
@@ -61,7 +66,3 @@ vscode "samuelcolvin.jinjahtml"
 vscode "tamasfe.even-better-toml"
 vscode "Vue.volar"
 vscode "Vue.vscode-typescript-vue-plugin"
-mas '1Password for Safari', id: 1569813296
-mas 'Amazon Kindle', id: 302584613
-mas 'NordVPN: VPN Fast & Secure', id: 905953485
-mas 'Save to Raindrop.io', id: 1549370672
