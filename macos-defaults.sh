@@ -37,6 +37,7 @@ echo "Setting Finder preferences..."
 # Writing of .DS_Store files on network or USB volumes
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 defaults write com.apple.finder AppleShowAllFiles -bool false
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Arrange by Kind, Name, Application, Date Last Opened, Date Added, Date Modified, Date Created, Size, Tags, None
 defaults write com.apple.finder FXPreferredGroupBy -string "Name"
 # Icon View   : `icnv` 
