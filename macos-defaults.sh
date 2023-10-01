@@ -1,19 +1,7 @@
 #!/bin/sh
 
-# Examples:
-# 
-# defaults help
-# defaults domains | tr ', ' '\n' | grep 'Safari'
-# defaults find ${word}
-# defaults read-type ${domain} ${key}
-# defaults read com.apple.dock | grep wvous
-
-# You can figure out which settings exist with a 
-# `diff` in the output of `defaults read ${domain} > my-defaults.txt` 
-# before and afer manually changing them in the UI.
-
-# Safari is sandboxed preventing `defaults` from read/writing to it. 
-# Your terminal needs full disk access so `defaults` can access the sandboxed container.
+# First, make sure your terminal has full disk access in 
+# System Settings > Privacy and Security > Full Disk Access
 
 cd ~
 
