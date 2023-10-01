@@ -42,10 +42,13 @@ cask "spotify"
 cask "visual-studio-code"
 cask "vnc-viewer"
 cask "whatsapp"
-mas '1Password for Safari', id: 1569813296
-mas 'Amazon Kindle', id: 302584613
-mas 'NordVPN: VPN Fast & Secure', id: 905953485
-mas 'Save to Raindrop.io', id: 1549370672
+mas "1Password for Safari", id: 1569813296
+mas "Amazon Kindle", id: 302584613
+mas "Keynote", id: 409183694
+mas "Pages", id: 409201541
+mas "NordVPN: VPN Fast & Secure", id: 905953485
+mas "Numbers", id: 409203825
+mas "Save to Raindrop.io", id: 1549370672
 vscode "hediet.vscode-drawio"
 vscode "moshfeu.compare-folders"
 vscode "ms-azuretools.vscode-docker"
