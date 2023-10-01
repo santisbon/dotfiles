@@ -34,6 +34,7 @@ killall Safari 2> /dev/null
 ###################################################################################################################
 echo "Setting Finder preferences..."
 
+defaults write "Apple Global Domain" AppleShowAllExtensions -bool true
 # Writing of .DS_Store files on network or USB volumes
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 defaults write com.apple.finder AppleShowAllFiles -bool false
@@ -86,9 +87,5 @@ echo "Setting Dock preferences..."
 defaults write com.apple.dock wvous-br-corner -int 13
 
 killall Dock 2> /dev/null
-
-###################################################################################################################
-# 
-###################################################################################################################
 
 echo "Done."
