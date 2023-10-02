@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# First, make sure your terminal has full disk access in 
+# First, enable this setting for your terminal:
 # System Settings > Privacy and Security > Full Disk Access
 
 cd ~
@@ -16,6 +16,14 @@ defaults write com.apple.Safari.SandboxBroker ShowDevelopMenu -bool true
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
 
 killall Safari 2> /dev/null
+
+###################################################################################################################
+# TRACKPAD
+###################################################################################################################
+echo "Setting trackpad preferences..."
+
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 
 ###################################################################################################################
 # FINDER
@@ -75,5 +83,12 @@ echo "Setting Dock preferences..."
 defaults write com.apple.dock wvous-br-corner -int 13
 
 killall Dock 2> /dev/null
+
+###################################################################################################################
+# iTerm2
+###################################################################################################################
+echo "Setting iTerm2 preferences..."
+
+defaults write com.googlecode.iterm2 PreventEscapeSequenceFromClearingHistory -bool false
 
 echo "Done."
