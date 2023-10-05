@@ -14,6 +14,8 @@ defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
 defaults write com.apple.Safari ShowOverlayStatusBar -bool true
 defaults write com.apple.Safari.SandboxBroker ShowDevelopMenu -bool true
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari EnableEnhancedPrivacyInRegularBrowsing -bool true
+defaults write com.apple.Safari WebKitPreferences.privateClickMeasurementEnabled -bool false
 
 killall Safari 2> /dev/null
 
