@@ -43,6 +43,7 @@ cask "visual-studio-code"
 cask "vnc-viewer"
 cask "whatsapp"
 cask "devtoys"
+cask "visual-paradigm-ce"
 mas "1Password for Safari", id: 1569813296
 mas "Amazon Kindle", id: 302584613
 mas "Keynote", id: 409183694
